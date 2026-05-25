@@ -12,14 +12,14 @@ existing methods:
 WhaleKV consists of three tightly integrated components:
 
 ```
-┌──────────────────────────────────────────────────────────────────┐
-│  Single-Turn                                                     │
-│  ASG ──→ QSP ──→ Score_super = A_super + A_prop                 │
-│                                                                  │
-│  Multi-Turn (Adaptive)                                           │
-│  ASG ──→ QSP ──→ GTA(Φ) ──→ Score_super = A_super + A_prop      │
-│                                           + Φ · C_norm          │
-└──────────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────────────┐
+│  Single-Turn                                                               │
+│  ASG ──→ QSP ──→ Score_super = A_super + A_prop                            │
+│                                                                            │
+│  Multi-Turn (Adaptive)                                                     │
+│  ASG ──→ QSP ──→ GTA(Φ) ──→ Score_super = A_super + A_prop  + Φ · C_norm   │
+│                                                                            │
+└────────────────────────────────────────────────────────────────────────────┘
 ```
 
 | Component | Full Name | Role |
