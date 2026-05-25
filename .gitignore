@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model weights / large binaries
+*.bin
+*.pt
+*.safetensors
+*.gguf
+
+# Logs / results (intermediate outputs)
+logs/
+results/
+*.log
+nohup.out
+
+# MCAR-600: merged file exceeds GitHub 100MB limit
+# Regenerate locally: python -c "import json; ..."
+# or use: cat data/mcar_600_narr.jsonl data/mcar_600_meet.jsonl data/mcar_600_code.jsonl > data/mcar_600_merged.jsonl
+mcar-600/data/mcar_600_merged.jsonl
+
+# Paper PDF (binary, not needed in code repo)
+*.pdf
+
+# Secrets
+.env
+*.key
