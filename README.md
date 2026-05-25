@@ -153,10 +153,10 @@ in the paper:
 
 | Class | Paper |
 |-------|-------|
-| `SnapKVPress` | SnapKV [13] |
-| `ChunkKVPress` | ChunkKV [19] |
-| `PyramidKVPress` | PyramidKV [22] |
-| `ExpectedAttentionPress` | Expected Attention [7] |
+| `SnapKVPress` | SnapKV  |
+| `ChunkKVPress` | ChunkKV  |
+| `PyramidKVPress` | PyramidKV  |
+| `ExpectedAttentionPress` | Expected Attention  |
 
 ## Parameters Reference
 
